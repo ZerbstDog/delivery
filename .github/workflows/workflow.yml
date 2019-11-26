@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
+        -name: check out the repository
         uses: actions/checkout@v1
 
       - name: Set up Python
